@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="description"
+      content="This is a blog page about skates and photograph of skaters"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skate Bebé - Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Hotjar Tracking Code for https://silly-euclid-a49887.netlify.app/ -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 2271033, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">
+          <img
+            class="logo"
+            src="images/logo-skatebebe.png"
+            alt="Skate Bebé logo"
+          />
+        </a>
+        <div id="nav-menu" class="menu">
+          <a id="current" class="navtext" href="index.html">Home</a>
+          <a class="navtext" href="blog.html">Blog</a>
+          <a class="navtext" href="contact.html">Contact</a>
+          <a class="navtext" href="about.html">About</a>
+        </div>
+        <button id="hamburgerBtn" class="hamburger-menu">
+          <img src="images/hamburger-01.svg" alt="Hidden menu" />
+        </button>
+        <button id="closeBtn" class="close-menu">
+          <img src="images/close.svg" alt="Close menu" />
+        </button>
+      </nav>
+    </header>
+    <main>
+      <img
+        class="index-img"
+        src="images/header.png"
+        alt="Skater bebé - decorative picture"
+      />
+      <img
+        class="index-big-img"
+        src="images/header-big.png"
+        alt="Skater bebé - decorative picture"
+      />
+      <h1 class="last post">Lastest posts!</h1>
+      <div class="carousel-wrapper">
+        <button class="carousel-button carousel-button--left">
+          <img src="images/arrow-left.svg" alt="" />
+        </button>
+        <button class="carousel-button carousel-button--right">
+          <img src="images/arrow-right.svg" alt="" />
+        </button>
+        <div class="carousel">
+          <div class="carousel-container"></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-text">
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="some-container">
+          <img
+            class="some-icon"
+            src="images/CIS-A2K_Instagram_Icon_(Black).svg"
+            alt="instagram-link"
+          />
+          <img
+            class="some-icon"
+            src="images/Facebook_f_logo_(2019).svg"
+            alt="facebook-link"
+          />
+          <img
+            class="some-icon"
+            src="images/Twitter_bird_logo_2012.svg"
+            alt="twitter-link"
+          />
+        </div>
+        <p class="copyright">Copyright &COPY; Skate Bebé</p>
+      </div>
+    </footer>
+    <script src="js/carousel.js"></script>
+    <script src="js/nav.js"></script>
+  </body>
+</html>
